@@ -1,0 +1,35 @@
+{
+  "evaluated_queries": 417,
+  "queries_with_no_results": 0,
+  "precision_at_10": 0.15419664268585132,
+  "success_at_5": 0.7242206235011991,
+  "recall_at_10": 0.5401496052575189,
+  "recall_at_100": 0.7501120648602662,
+  "map_at_100": 0.3981558697773881,
+  "ndcg_at_10": 0.47274285987882314,
+  "ap_denominator": "all labeled relevant passages",
+  "relevance": "binary",
+  "pr_curve": "101-point interpolated, retrieval truncated at 100",
+  "method": "hybrid_chunked_two",
+  "domain": "lifestyle",
+  "split": "dev",
+  "query_type": "search",
+  "rrf_k": 60,
+  "weights": {
+    "tfidf": 0.0,
+    "bm25": 1.0,
+    "semantic_chunked": 4.0
+  },
+  "semantic_variant": "semantic_chunked",
+  "candidate_limit": 100,
+  "candidates_per_method": 100,
+  "selection_status": "fixed earlier weights; no additional weight search",
+  "mean_fusion_latency_ms": 0.059644364489731545,
+  "mean_query_latency_ms": null,
+  "latency_note": "Offline fusion only, not full search latency.",
+  "source_ranking_sha256": {
+    "tfidf": "2f9155d1e14921048a9cf814612736a9ed7caba22045db6d58613fc51780fb23",
+    "bm25": "66694072037e822d9e18317337b19a9b6e6e37a96a74a05bf4b97e404360e31b",
+    "semantic_chunked": "df408e5e5cb924661fb2a69d1de441527f20e18735299499b6de19f800c0eded"
+  }
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "path": "audit_passage_lengths.py",
+    "bytes": 5806,
+    "sha256": "ca2d4e2a556c7292cb775b6f0a330c4cb3387c0dbf241e4c1394f4d31f33e417"
+  },
+  {
+    "path": "bm25_baseline.py",
+    "bytes": 4133,
+    "sha256": "f3eb3a46803afa4ed1ea35e2be640b674e0e2f84cdf17717fe9459e365e48b18"
+  },
+  {
+    "path": "compare_chunked_hybrid.py",
+    "bytes": 4610,
+    "sha256": "01fab2c85385987511c51a06d0b48bdca7dccd7753511e5e79bfb096b2de7036"
+  },
+  {
+    "path": "evaluate_retrieval.py",
+    "bytes": 7338,
+    "sha256": "dce2bf757b278569c031cabc39bfa79a7b9357606c312332dd4c44657fb01893"
+  },
+  {
+    "path": "hybrid_rrf.py",
+    "bytes": 3361,
+    "sha256": "3f52b767869552909e74a117bfb7d645a853e9da5a8d975dcdf4e66a04eddbac"
+  },
+  {
+    "path": "run_test_evaluation.py",
+    "bytes": 17496,
+    "sha256": "3c0438e833e7167e6e40f47ae628e138b78f54d1f158c9c36673a26479c5dd81"
+  },
+  {
+    "path": "semantic_baseline.py",
+    "bytes": 7740,
+    "sha256": "af30399b683642ed901e036cdf1a0bc26ba4c02c737ca52fe8157cb5ddfb8aef"
+  },
+  {
+    "path": "semantic_chunked.py",
+    "bytes": 12859,
+    "sha256": "c9bf4523cbc968eaa3e171878746d627f097716d698179c238cf38aea2409793"
+  },
+  {
+    "path": "tfidf_baseline.py",
+    "bytes": 4355,
+    "sha256": "bb0ea189b17e108fdd35964a4ad10a2f1f022c5625fed4d9e8f3a118b88dbe0e"
+  },
+  {
+    "path": "tune_rrf.py",
+    "bytes": 6916,
+    "sha256": "632bbd342110c9d5851c4869a9a6777e9fa77873d3ad05295352ec14f64c6807"
+  },
+  {
+    "path": "processss.txt",
+    "bytes": 23609,
+    "sha256": "c1b4f994f65d84dc6c7cf668c412759e498bc8655dd962d0246218cd603b721a"
+  },
+  {
+    "path": "artifacts\\lifestyle\\dev\\tfidf\\metrics.json",
+    "bytes": 705,
+    "sha256": "6cb9b1e1e82972353882528db6e859703070107b63f80bfdc33b4ebbb3a1e278"
+  },
+  {
+    "path": "artifacts\\lifestyle\\dev\\tfidf\\precision_recall.csv",
+    "bytes": 2765,
+    "sha256": "32ddc59119893ecb8e7bbc6b4ce7aff4812d8c41a4e04f2c1205021f23f0a187"
+  },
+  {
+    "path": "artifacts\\lifestyle\\dev\\bm25\\metrics.json",
+    "bytes": 882,
+    "sha256": "8fdf7624a71d8af8686de0dbbda5386bebce432590a6d2d5b22a7d131bd16d0c"
+  },
+  {
+    "path": "artifacts\\lifestyle\\dev\\bm25\\precision_recall.csv",
+    "bytes": 2741,
+    "sha256": "9dda748c74525fc521f294572625b2957334c8ec72159b04bc76f9a11772feea"
+  },
+  {
+    "path": "artifacts\\lifestyle\\dev\\semantic_chunked\\metrics.json",
+    "bytes": 1458,
+    "sha256": "aae0ae82844d2220fcce05ce2574957f9c305201969c47594027f9eb451fdb60"
+  },
+  {
+    "path": "artifacts\\lifestyle\\dev\\semantic_chunked\\precision_recall.csv",
+    "bytes": 2721,
+    "sha256": "a51db1d1dddb0a5d6192cbb4164ea176d78ff976a71f817c1de8f18063652079"
+  },
+  {
+    "path": "artifacts\\lifestyle\\dev\\hybrid_chunked_two\\metrics.json",
+    "bytes": 1285,
+    "sha256": "7cdf88a08fd5b811a2b7c5e7f9a6ece205a67384a04da3314188505c03f667fa"
+  },
+  {
+    "path": "artifacts\\lifestyle\\dev\\hybrid_chunked_two\\precision_recall.csv",
+    "bytes": 2732,
+    "sha256": "3d37323848a828799096f8d3876c9d768656c3e4a874353896fdb415af4e3a0e"
+  },
+  {
+    "path": "artifacts\\lifestyle\\dev\\hybrid\\metrics.json",
+    "bytes": 1096,
+    "sha256": "9006749b5643a9f63607f2223b32b0a8e9191fedc4a74645b7d4f793030d2b27"
+  },
+  {
+    "path": "artifacts\\lifestyle\\dev\\hybrid\\precision_recall.csv",
+    "bytes": 2730,
+    "sha256": "d811c576e789bc80f12bc91df9ee8a29354553ad9fa68d0e4ea3c5ac0d515c82"
+  },
+  {
+    "path": "artifacts\\lifestyle\\test\\tfidf\\metrics.json",
+    "bytes": 803,
+    "sha256": "86344e1641ff24c0f187c6b39fafcea81d9490a839ff0ab4f8c0ea4d02ad6d68"
+  },
+  {
+    "path": "artifacts\\lifestyle\\test\\tfidf\\precision_recall.csv",
+    "bytes": 2746,
+    "sha256": "8e229d88f2ae0ff010f8590f305f771b4870f0e9d317aba02cbf355ec666add4"
+  },
+  {
+    "path": "artifacts\\lifestyle\\test\\bm25\\metrics.json",
+    "bytes": 804,
+    "sha256": "784fc839ae2a2928051ace7283a7b891a60086787cac7572340da0272380520e"
+  },
+  {
+    "path": "artifacts\\lifestyle\\test\\bm25\\precision_recall.csv",
+    "bytes": 2730,
+    "sha256": "2d777f05c9cab6d218b4e835c96c2e243638be3f7e5ff1888a36f7f4de4f936d"
+  },
+  {
+    "path": "artifacts\\lifestyle\\test\\semantic_chunked\\metrics.json",
+    "bytes": 1284,
+    "sha256": "346a66cdbfe466e11765a7effb23de0515e5e1fb253b008bc560e0d9df5075db"
+  },
+  {
+    "path": "artifacts\\lifestyle\\test\\semantic_chunked\\precision_recall.csv",
+    "bytes": 2715,
+    "sha256": "3edb8e5a191b2f5481931b0cbee9a9f89ca8cab075f4bea7dc2fae4cbe22d05d"
+  },
+  {
+    "path": "artifacts\\lifestyle\\test\\hybrid_chunked_two\\metrics.json",
+    "bytes": 876,
+    "sha256": "c9b9bb53bc2f4cd31664f58a1965761b37174a7f9371eadcd8a69921d8939de7"
+  },
+  {
+    "path": "artifacts\\lifestyle\\test\\hybrid_chunked_two\\precision_recall.csv",
+    "bytes": 2707,
+    "sha256": "684aff93372d31fc4b6d1ca8595b888578e79782466f858e772a3e1e764ea352"
+  }
+]

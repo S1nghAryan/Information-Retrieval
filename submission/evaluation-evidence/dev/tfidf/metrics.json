@@ -1,0 +1,22 @@
+{
+  "method": "tfidf",
+  "domain": "lifestyle",
+  "split": "dev",
+  "query_type": "search",
+  "passages": 268893,
+  "queries": 417,
+  "candidate_limit": 100,
+  "precision_at_10": 0.07745803357314147,
+  "mean_query_latency_ms": 26.44200719374693,
+  "indexing_seconds": 38.49246819999826,
+  "evaluated_queries": 417,
+  "queries_with_no_results": 0,
+  "success_at_5": 0.37889688249400477,
+  "recall_at_10": 0.28271053486880826,
+  "recall_at_100": 0.5732173368864016,
+  "map_at_100": 0.17216540633324415,
+  "ndcg_at_10": 0.21303434215962966,
+  "ap_denominator": "all labeled relevant passages",
+  "relevance": "binary",
+  "pr_curve": "101-point interpolated, retrieval truncated at 100"
+}

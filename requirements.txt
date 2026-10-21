@@ -1,0 +1,14 @@
+fastapi==0.149.0
+uvicorn==0.54.0
+requests==2.34.2
+numpy==2.5.4
+faiss-cpu==1.15.1
+PyStemmer==3.1.0
+bm25s==0.3.14
+scikit-learn==1.9.1
+scipy==1.18.1
+sentence-transformers==6.1.0
+torch==2.11.0
+tqdm==4.70.1
+matplotlib==3.11.2
+pandas==3.0.6

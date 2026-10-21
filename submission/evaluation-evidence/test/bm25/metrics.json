@@ -1,0 +1,23 @@
+{
+  "method": "bm25",
+  "domain": "lifestyle",
+  "split": "test",
+  "query_type": "search",
+  "candidate_limit": 100,
+  "passages": 119461,
+  "queries": 661,
+  "indexing_seconds": 18.820671099994797,
+  "mean_query_latency_ms": 7.745016944489361,
+  "timing_note": "Single warm run; preprocessing, scoring and ranking included; loading excluded.",
+  "evaluated_queries": 661,
+  "queries_with_no_results": 0,
+  "precision_at_10": 0.12889561270801816,
+  "success_at_5": 0.6883509833585476,
+  "recall_at_10": 0.5409186417885359,
+  "recall_at_100": 0.7719628749129506,
+  "map_at_100": 0.39730238270431106,
+  "ndcg_at_10": 0.4645493385977258,
+  "ap_denominator": "all labeled relevant passages",
+  "relevance": "binary",
+  "pr_curve": "101-point interpolated, retrieval truncated at 100"
+}

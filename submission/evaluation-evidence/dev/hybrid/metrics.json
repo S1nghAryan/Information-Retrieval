@@ -1,0 +1,36 @@
+{
+  "method": "hybrid",
+  "domain": "lifestyle",
+  "split": "dev",
+  "query_type": "search",
+  "queries": 417,
+  "component_methods": [
+    "tfidf",
+    "bm25",
+    "semantic"
+  ],
+  "fusion": "reciprocal_rank_fusion",
+  "rrf_k": 60,
+  "weights": {
+    "tfidf": 1.0,
+    "bm25": 1.0,
+    "semantic": 1.0
+  },
+  "candidates_per_method": 100,
+  "candidate_limit": 100,
+  "mean_unique_candidates": 214.38129496402877,
+  "mean_fusion_latency_ms": 0.0650314151097817,
+  "mean_query_latency_ms": null,
+  "latency_note": "Offline fusion time only. End-to-end hybrid query latency must be measured when all retrievers run together.",
+  "evaluated_queries": 417,
+  "queries_with_no_results": 0,
+  "precision_at_10": 0.12877697841726618,
+  "success_at_5": 0.6330935251798561,
+  "recall_at_10": 0.4656574507293932,
+  "recall_at_100": 0.7499597192043235,
+  "map_at_100": 0.3290973014887091,
+  "ndcg_at_10": 0.3937917015005622,
+  "ap_denominator": "all labeled relevant passages",
+  "relevance": "binary",
+  "pr_curve": "101-point interpolated, retrieval truncated at 100"
+}

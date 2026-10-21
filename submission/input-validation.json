@@ -1,0 +1,18 @@
+[
+  {
+    "check": "invalid search input",
+    "status": 422
+  },
+  {
+    "check": "invalid search input",
+    "status": 422
+  },
+  {
+    "check": "invalid search input",
+    "status": 422
+  },
+  {
+    "check": "expired or missing result",
+    "status": 410
+  }
+]
